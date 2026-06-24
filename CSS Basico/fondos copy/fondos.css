@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: rgba(67, 167, 9, 0.632);
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    background-image: url("https://i.natgeofe.com/k/9acd2bad-fb0e-43a8-935d-ec0aefc60c2f/monarch-butterfly-grass.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /*Para el eecto del scroll*/
+    background-attachment: fixed;
+    background: url("https://i.natgeofe.com/k/9acd2bad-fb0e-43a8-935d-ec0aefc60c2f/monarch-butterfly-grass.jpg") center cover fixed brown ;
+
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background: #000a;
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 80px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding: 30px;
+    color: rgb(9, 41, 41);
+}
+
+
+.caja {
+    width: 300px;
+    height: 300px; 
+    margin: auto;
+    background: linear-gradient(to bottom,transparent 10%, #000a);
+    border-top: 3px solid rgb(5, 95, 88);
+    box-shadow: 5 0 0 5px #0007;}

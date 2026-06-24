@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: rgb(63, 138, 236);
+    padding: 20px;
+}
+
+.form {
+    margin: auto;
+    background: rgb(149, 189, 242);
+    padding: 30px;
+    width: 50%; 
+
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form-input {
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-sendbutton {
+    letter-spacing: 2px;
+    background: rgb(34, 31, 207);
+    color: white;
+    
+}
+
+.box {
+    background: red;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-default {
+    box-sizing: content-box;
+    padding: 25px;
+    border: 10px solid black;
+}
+
+.box-new {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+}
